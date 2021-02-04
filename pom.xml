@@ -496,16 +496,10 @@
         </profile>
     </profiles>
     <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>Releases</name>
-            <url>http://localhost:8082/nexus/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>Snapshots</name>
-            <url>http://localhost:8082/nexus/content/repositories/snapshots/</url>
-            </snapshotRepository>
-            
-        </distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>workspacerdkvfd9qle99l847.ws-5675888646-m4flr-snapshots</name>
+        <url>http://server8q6djwlu-ws-dev-server-8000.us-dc-4.projects.hackerrank.net/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
